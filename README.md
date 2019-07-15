@@ -8,5 +8,5 @@ Hard.
 There is also one random level. 
 
 How To Play :
-download zip --> extract all files  --->  run .py file
+download zip --> extract all files  --->  run .py file. 
 Select the level from the top in menubar. You can also view the solution or if you complete level then submit to check your submission.
