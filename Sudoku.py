@@ -507,12 +507,12 @@ def display(button_text,root,grid,level):
 # --------------------------------------------END OF DISPLAY FUNCTION------------------------------
 
 def easy(root):
+    global ind
     root.destroy()
     roote =Tk()
     roote.title("SUDOKU -  EASY")
     roote.geometry("777x700")
     roote.wm_iconbitmap("calc.ico")
-    global ind
     ind= []
     global button_text
     button_text = []
@@ -530,6 +530,7 @@ def easy(root):
     roote.mainloop()
 
 def medium(root):
+    global ind
     root.destroy()
     rootm =Tk()
     rootm.title("SUDOKU -  MEDIUM")
@@ -552,12 +553,12 @@ def medium(root):
     rootm.mainloop()
 
 def hard(root):
+    global ind
     root.destroy()
     rooth =Tk()
     rooth.title("SUDOKU -  HARD")
     rooth.geometry("777x700")
     rooth.wm_iconbitmap("calc.ico")
-    global ind
     ind =[]
     global button_text
     button_text = []
