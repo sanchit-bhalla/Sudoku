@@ -575,6 +575,7 @@ def hard(root):
     rooth.mainloop()
 
 def random(root):
+    global ind
     root.destroy()
     rootr =Tk()
     rootr.title("SUDOKU -  RANDOM")
